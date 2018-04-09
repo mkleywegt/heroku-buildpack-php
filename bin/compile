@@ -26,19 +26,19 @@ source $bp_dir/bin/util/common.sh
 # we do not 'set -o errtrace', because that would cause subshell failures to fire the trap twice, e.g. with someval=$(func_that_fails)
 trap 'err_trap' ERR
 
+
+# we are off-line, so start a webserver for serving composer packages
+cd $bp_dir/lib
+python -m SimpleHTTPServer 8008 > /dev/null 2>&1 &
+
+# give it a rest
+sleep 3
+
+# set the endpoint for resolving downloads
+s3_url="http://0.0.0.0:8008/"
+
 # stdlib
-# download to a file first, as the function restarts the entire download on code 18 connection reset (not all servers support -C)
-curl_retry_on_18 --fail --silent --location -o $bp_dir/bin/util/stdlib.sh https://lang-common.s3.amazonaws.com/buildpack-stdlib/v8/stdlib.sh || {
-	error <<-EOF
-		Failed to download standard library for bootstrapping!
-		
-		This is most likely a temporary internal error. If the problem
-		persists, make sure that you are not running a custom or forked
-		version of the Heroku PHP buildpack which may need updating.
-	EOF
-}
-source $bp_dir/bin/util/stdlib.sh
-rm $bp_dir/bin/util/stdlib.sh
+source /dev/stdin <<< "$(curl_retry_on_18 --silent ${s3_url}stdlib.sh)"
 
 # failure counting
 source $bp_dir/bin/util/failures.sh
@@ -200,7 +200,6 @@ mkdir -p $COMPOSER_HOME
 
 status "Bootstrapping..."
 
-s3_url="https://lang-php.s3.amazonaws.com/dist-${STACK}-stable/"
 # prepend the default repo to the list configured by the user
 # list of repositories to use is in ascening order of precedence
 export_env_dir "$env_dir" '^HEROKU_PHP_PLATFORM_REPOSITORIES$'
@@ -219,27 +218,23 @@ mkdir -p $build_dir/.heroku/php-min
 ln -s $build_dir/.heroku/php-min /app/.heroku/php-min
 
 curl_retry_on_18 --fail --silent --location -o $build_dir/.heroku/php-min.tar.gz "${s3_url}php-min-7.0.31.tar.gz" || {
-	mcount "failures.bootstrap.download.php-min"
-	error <<-EOF
-		Failed to download minimal PHP for bootstrapping!
-		
-		This is most likely a temporary internal error. If the problem
-		persists, make sure that you are not running a custom or forked
-		version of the Heroku PHP buildpack which may need updating.
-	EOF
+	mv $bp_dir/lib/php-min-7.0.29.tar.gz $build_dir/.heroku/php-min.tar.gz
+	# mcount "failures.bootstrap.download.php-min"
+	# error <<-EOF
+	#	Failed to download minimal PHP for bootstrapping.
+	#	Please try again, or contact support if this problem persists.
+	# EOF
 }
 tar xzf $build_dir/.heroku/php-min.tar.gz -C $build_dir/.heroku/php-min
 rm $build_dir/.heroku/php-min.tar.gz
 
 curl_retry_on_18 --fail --silent --location -o $build_dir/.heroku/composer.tar.gz "${s3_url}composer-1.7.2.tar.gz" || {
-	mcount "failures.bootstrap.download.composer"
-	error <<-EOF
-		Failed to download Composer for bootstrapping!
-		
-		This is most likely a temporary internal error. If this problem
-		persists, make sure that you are not running a custom or forked
-		version of the Heroku PHP buildpack which may need updating.
-	EOF
+	mv $bp_dir/lib/composer-1.6.3.tar.gz $build_dir/.heroku/composer.tar.gz
+	#mcount "failures.bootstrap.download.composer"
+	#error <<-EOF
+  #	Failed to download Composer.
+	#	Please try again, or contact support if this problem persists.
+	#EOF
 }
 tar xzf $build_dir/.heroku/composer.tar.gz -C $build_dir/.heroku/php
 rm $build_dir/.heroku/composer.tar.gz
@@ -404,6 +399,7 @@ else
 	)
 	if [[ $code -eq 2 ]]; then
 		# dependency solving failed
+		echo $install_log
 		mcount "failures.platform.solving.$(detect_platform_solving_failures <<< "$install_log")"
 	else
 		# something else
@@ -446,8 +442,9 @@ else
 				$(echo -e "\033[1;31m")
 			EOF2
 		)
+
 		For reference, the following runtimes are currently available:
-		
+
 		PHP:  $(composer show -d "$build_dir/.heroku/php" --available heroku-sys/php 2>&1 | sed -n 's/^versions : //p' | fold -s -w 58 || true)
 		HHVM: $(composer show -d "$build_dir/.heroku/php" --available heroku-sys/hhvm 2>&1 | sed -n 's/^versions : //p' | fold -s -w 58 || true)
 		
@@ -499,6 +496,16 @@ composer --no-plugins --version 2> /dev/null | tail -n 1 | indent
 # throw a notice if people have added their vendor dir to Git; that's bad practice and makes everything slow and cluttered
 if [[ -f "$composer_vendordir/autoload.php" && -d "$composer_vendordir/composer" ]]; then
 	# we should not do this check separately; there is no reliable way of telling whether or not it really is the real Composer bin dir or if it comes from somewhere else
+	composer_warn_bindir=""
+	if [[ ! "$composer_bindir/" == "$composer_vendordir"/* && -d "$composer_bindir" ]]; then
+		composer_warn_bindir=$(cat <<-EOF
+
+			Your Composer bin dir is configured to reside outside of vendor
+			dir, so please repeat the two steps above for '$composer_bindir/'.
+		EOF
+		)
+	fi
+
 	mcount "warnings.vendor_dir"
 	warning <<-EOF
 		Composer vendor dir found in project!
@@ -673,6 +680,8 @@ if [[ "${HEROKU_PHP_INSTALL_DEV+CI}" != "CI" ]]; then
 	install_newrelic_ext
 	install_newrelic_userini
 fi
+
+#kill -SIGINT $pid
 
 # done with platform installs; restore COMPOSER from previous value
 export COMPOSER="$COMPOSER_bak"

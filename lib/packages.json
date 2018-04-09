@@ -1,0 +1,4457 @@
+{
+    "packages": [
+        [{
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/amqp-1.9.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-amqp",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:10:35",
+            "type": "heroku-sys-php-extension",
+            "version": "1.9.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/apcu-5.1.10.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:56:17",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.10"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/apcu-5.1.11.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:46:16",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.11"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/apcu-5.1.8.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:10:57",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.8"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/apcu-5.1.9.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:28:23",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.9"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/blackfire-1.18.0.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 18:19:29",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/blackfire-1.18.2.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:26:48",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/cassandra-1.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-cassandra",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/libcassandra": "^2.7.0",
+                "heroku-sys/libcassandra-abi": "^2",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:11:35",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/ev-1.0.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-ev",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:11:53",
+            "type": "heroku-sys-php-extension",
+            "version": "1.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/event-2.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-event",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:12:11",
+            "type": "heroku-sys-php-extension",
+            "version": "2.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/imagick-3.4.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-imagick",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:12:29",
+            "type": "heroku-sys-php-extension",
+            "version": "3.4.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/memcached-3.0.4.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/memcached.ini-dist"
+            },
+            "name": "heroku-sys/ext-memcached",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:12:44",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/mongodb-1.3.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:13:26",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/mongodb-1.3.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:32:09",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/mongodb-1.4.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 13:53:37",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/mongodb-1.4.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:55:02",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/mongodb-1.4.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:46:54",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/newrelic-7.7.0.203.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 19:23:42",
+            "type": "heroku-sys-php-extension",
+            "version": "7.7.0.203"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/newrelic-8.0.0.204.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:47:04",
+            "type": "heroku-sys-php-extension",
+            "version": "8.0.0.204"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/oauth-2.0.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-oauth",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:13:40",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/phalcon-3.2.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:15:29",
+            "type": "heroku-sys-php-extension",
+            "version": "3.2.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/phalcon-3.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:39:22",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/phalcon-3.3.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:59:20",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/phalcon-3.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:48:39",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/pq-2.1.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:16:42",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/pq-2.1.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:53:44",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/raphf-2.0.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-raphf",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:15:52",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/rdkafka-3.0.5.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-rdkafka",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/librdkafka": "~0.9",
+                "heroku-sys/librdkafka-abi": "^1",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:16:05",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.5"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/redis-3.1.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:16:22",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20170718/redis-3.1.6.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.2.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:41:18",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.6"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/amqp-1.9.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-amqp",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:23:21",
+            "type": "heroku-sys-php-extension",
+            "version": "1.9.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/apcu-5.1.10.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:55:55",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.10"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/apcu-5.1.11.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:43:20",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.11"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/apcu-5.1.8.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-01-19 04:54:28",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.8"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/apcu-5.1.9.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:27:46",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.9"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/blackfire-1.18.0.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:08:38",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/blackfire-1.18.2.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:26:32",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/cassandra-1.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-cassandra",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/libcassandra": "^2.7.0",
+                "heroku-sys/libcassandra-abi": "^2",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-07 01:24:59",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/ev-1.0.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-ev",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-12-08 21:10:04",
+            "type": "heroku-sys-php-extension",
+            "version": "1.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/event-2.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-event",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-03-26 13:25:01",
+            "type": "heroku-sys-php-extension",
+            "version": "2.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/imagick-3.4.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-imagick",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-02-03 11:07:10",
+            "type": "heroku-sys-php-extension",
+            "version": "3.4.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/memcached-3.0.4.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/memcached.ini-dist"
+            },
+            "name": "heroku-sys/ext-memcached",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:28:01",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/mongodb-1.3.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:27:44",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/mongodb-1.3.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:31:15",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/mongodb-1.4.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 13:52:48",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/mongodb-1.4.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:54:04",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/mongodb-1.4.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:44:13",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/newrelic-7.6.0.201.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:21:21",
+            "type": "heroku-sys-php-extension",
+            "version": "7.6.0.201"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/newrelic-7.7.0.203.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 19:23:32",
+            "type": "heroku-sys-php-extension",
+            "version": "7.7.0.203"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/newrelic-8.0.0.204.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:44:20",
+            "type": "heroku-sys-php-extension",
+            "version": "8.0.0.204"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/oauth-2.0.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-oauth",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-28 11:37:12",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/phalcon-3.2.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:26:19",
+            "type": "heroku-sys-php-extension",
+            "version": "3.2.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/phalcon-3.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:37:29",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/phalcon-3.3.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:58:00",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/phalcon-3.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:45:55",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/pq-2.1.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-08-03 11:52:48",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/pq-2.1.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:53:28",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/raphf-2.0.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-raphf",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-28 11:37:52",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/rdkafka-3.0.5.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-rdkafka",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/librdkafka": "~0.9",
+                "heroku-sys/librdkafka-abi": "^1",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:26:52",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.5"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/redis-3.1.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:07:29",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20160303/redis-3.1.6.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.1.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:40:55",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.6"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/amqp-1.9.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-amqp",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:17:37",
+            "type": "heroku-sys-php-extension",
+            "version": "1.9.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/apcu-5.1.10.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:55:32",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.10"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/apcu-5.1.11.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:40:31",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.11"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/apcu-5.1.8.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-01-19 04:49:37",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.8"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/apcu-5.1.9.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/apcu-apc.ini-dist"
+            },
+            "name": "heroku-sys/ext-apcu",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:27:23",
+            "type": "heroku-sys-php-extension",
+            "version": "5.1.9"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/blackfire-1.18.0.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:08:11",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/blackfire-1.18.2.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:26:17",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/cassandra-1.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-cassandra",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/libcassandra": "^2.7.0",
+                "heroku-sys/libcassandra-abi": "^2",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-07 01:24:00",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/ev-1.0.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-ev",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-12-08 21:08:58",
+            "type": "heroku-sys-php-extension",
+            "version": "1.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/event-2.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-event",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-03-26 13:24:36",
+            "type": "heroku-sys-php-extension",
+            "version": "2.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/imagick-3.4.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-imagick",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-02-03 11:06:48",
+            "type": "heroku-sys-php-extension",
+            "version": "3.4.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/memcached-3.0.4.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/memcached.ini-dist"
+            },
+            "name": "heroku-sys/ext-memcached",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:26:32",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/mongodb-1.3.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:26:14",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/mongodb-1.3.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:30:13",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/mongodb-1.4.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 13:51:51",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/mongodb-1.4.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:53:09",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/mongodb-1.4.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:41:23",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/newrelic-7.6.0.201.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:14:36",
+            "type": "heroku-sys-php-extension",
+            "version": "7.6.0.201"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/newrelic-7.7.0.203.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 19:23:23",
+            "type": "heroku-sys-php-extension",
+            "version": "7.7.0.203"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/newrelic-8.0.0.204.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:41:30",
+            "type": "heroku-sys-php-extension",
+            "version": "8.0.0.204"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/oauth-2.0.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-oauth",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 02:03:34",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/phalcon-3.2.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:21:11",
+            "type": "heroku-sys-php-extension",
+            "version": "3.2.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/phalcon-3.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:35:32",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/phalcon-3.3.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:56:30",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/phalcon-3.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:43:03",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/pq-2.1.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-08-03 11:52:28",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/pq-2.1.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": ">=2.0.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:53:12",
+            "type": "heroku-sys-php-extension",
+            "version": "2.1.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/raphf-2.0.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-raphf",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 02:06:38",
+            "type": "heroku-sys-php-extension",
+            "version": "2.0.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/rdkafka-3.0.5.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-rdkafka",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/librdkafka": "~0.9",
+                "heroku-sys/librdkafka-abi": "^1",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:25:16",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.5"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/redis-3.1.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:27:21",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20151012/redis-3.1.6.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "7.0.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:40:24",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.6"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/amqp-1.9.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-amqp",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 18:38:14",
+            "type": "heroku-sys-php-extension",
+            "version": "1.9.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/apcu-4.0.11.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-apcu",
+            "replace": {
+                "heroku-sys/ext-apc": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 01:44:34",
+            "type": "heroku-sys-php-extension",
+            "version": "4.0.11"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/blackfire-1.18.0.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:07:48",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/blackfire-1.18.2.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/blackfire.ini-dist",
+                "profile": "bin/profile.blackfire.sh"
+            },
+            "name": "heroku-sys/ext-blackfire",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:25:57",
+            "type": "heroku-sys-php-extension",
+            "version": "1.18.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/cassandra-1.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-cassandra",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/libcassandra": "^2.7.0",
+                "heroku-sys/libcassandra-abi": "^2",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-07 01:22:56",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/ev-1.0.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-ev",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-12-08 21:07:46",
+            "type": "heroku-sys-php-extension",
+            "version": "1.0.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/event-2.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-event",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-03-26 13:24:10",
+            "type": "heroku-sys-php-extension",
+            "version": "2.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/imagick-3.4.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-imagick",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-02-03 11:06:27",
+            "type": "heroku-sys-php-extension",
+            "version": "3.4.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/memcached-2.2.0.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/memcached.ini-dist"
+            },
+            "name": "heroku-sys/ext-memcached",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-02-11 18:24:12",
+            "type": "heroku-sys-php-extension",
+            "version": "2.2.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongo-1.6.16.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongo",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-07 00:32:34",
+            "type": "heroku-sys-php-extension",
+            "version": "1.6.16"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongodb-1.3.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:24:52",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongodb-1.3.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:29:22",
+            "type": "heroku-sys-php-extension",
+            "version": "1.3.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongodb-1.4.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 13:50:52",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongodb-1.4.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:52:13",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/mongodb-1.4.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-mongodb",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:38:29",
+            "type": "heroku-sys-php-extension",
+            "version": "1.4.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/newrelic-7.6.0.201.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 17:14:15",
+            "type": "heroku-sys-php-extension",
+            "version": "7.6.0.201"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/newrelic-7.7.0.203.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-12 19:23:13",
+            "type": "heroku-sys-php-extension",
+            "version": "7.7.0.203"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/newrelic-8.0.0.204.tar.gz"
+            },
+            "extra": {
+                "config": "etc/php/conf.d/newrelic.ini-dist",
+                "profile": "bin/profile.newrelic.sh"
+            },
+            "name": "heroku-sys/ext-newrelic",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:38:38",
+            "type": "heroku-sys-php-extension",
+            "version": "8.0.0.204"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/oauth-1.2.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-oauth",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 01:50:23",
+            "type": "heroku-sys-php-extension",
+            "version": "1.2.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/phalcon-3.2.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 18:42:58",
+            "type": "heroku-sys-php-extension",
+            "version": "3.2.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/phalcon-3.3.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:33:40",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/phalcon-3.3.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-10 17:55:08",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/phalcon-3.3.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-phalcon",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:40:05",
+            "type": "heroku-sys-php-extension",
+            "version": "3.3.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/pq-1.1.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-pq",
+            "replace": {},
+            "require": {
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-raphf": "^1.1.0",
+                "heroku-sys/ext-spl": "*",
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 02:44:53",
+            "type": "heroku-sys-php-extension",
+            "version": "1.1.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/raphf-1.1.2.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-raphf",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-09 01:55:07",
+            "type": "heroku-sys-php-extension",
+            "version": "1.1.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/rdkafka-3.0.5.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-rdkafka",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/librdkafka": "~0.9",
+                "heroku-sys/librdkafka-abi": "^1",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 05:23:47",
+            "type": "heroku-sys-php-extension",
+            "version": "3.0.5"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/redis-3.1.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-09-30 10:06:56",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.4"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/extensions/no-debug-non-zts-20131226/redis-3.1.6.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/ext-redis",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku-sys/php": "5.6.*",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:39:54",
+            "type": "heroku-sys-php-extension",
+            "version": "3.1.6"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/apache-2.4.29.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.apache2.sh",
+                "profile": "bin/profile.apache2.sh"
+            },
+            "name": "heroku-sys/apache",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 18:59:09",
+            "type": "heroku-sys-webserver",
+            "version": "2.4.29"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/apache-2.4.33.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.apache2.sh",
+                "profile": "bin/profile.apache2.sh"
+            },
+            "name": "heroku-sys/apache",
+            "provide": {},
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-29 23:44:34",
+            "type": "heroku-sys-webserver",
+            "version": "2.4.33"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/libraries/libcassandra-2.8.0.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/libcassandra",
+            "provide": {
+                "heroku-sys/libcassandra-abi": "2"
+            },
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.3.0"
+            },
+            "time": "2017-11-30 00:59:09",
+            "type": "heroku-sys-library",
+            "version": "2.8.0"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/libraries/libcassandra-2.8.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/libcassandra",
+            "provide": {
+                "heroku-sys/libcassandra-abi": "2"
+            },
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.3.0"
+            },
+            "time": "2018-03-02 14:51:20",
+            "type": "heroku-sys-library",
+            "version": "2.8.1"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/libraries/librdkafka-0.11.1.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/librdkafka",
+            "provide": {
+                "heroku-sys/librdkafka-abi": "1"
+            },
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.3.0"
+            },
+            "time": "2017-10-27 17:14:06",
+            "type": "heroku-sys-library",
+            "version": "0.11.1"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/libraries/librdkafka-0.11.3.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/librdkafka",
+            "provide": {
+                "heroku-sys/librdkafka-abi": "1"
+            },
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.3.0"
+            },
+            "time": "2018-01-04 15:26:43",
+            "type": "heroku-sys-library",
+            "version": "0.11.3"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/libraries/librdkafka-0.11.4.tar.gz"
+            },
+            "extra": {},
+            "name": "heroku-sys/librdkafka",
+            "provide": {
+                "heroku-sys/librdkafka-abi": "1"
+            },
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.3.0"
+            },
+            "time": "2018-03-30 00:37:41",
+            "type": "heroku-sys-library",
+            "version": "0.11.4"
+        }, {
+            "conflict": {},
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/nginx-1.8.1.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.nginx.sh",
+                "profile": "bin/profile.nginx.sh"
+            },
+            "name": "heroku-sys/nginx",
+            "replace": {},
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2016-11-08 23:29:34",
+            "type": "heroku-sys-webserver",
+            "version": "1.8.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-5.6.32.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mysql": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "1.0.4dev",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "0",
+                "heroku-sys/ext-SPL": "0.2",
+                "heroku-sys/ext-SimpleXML": "0.1",
+                "heroku-sys/ext-Zend-OPcache": "7.0.6",
+                "heroku-sys/ext-bcmath": "0",
+                "heroku-sys/ext-bz2": "0",
+                "heroku-sys/ext-calendar": "0",
+                "heroku-sys/ext-ctype": "0",
+                "heroku-sys/ext-curl": "0",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-ereg": "0",
+                "heroku-sys/ext-exif": "0",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "0.11.0",
+                "heroku-sys/ext-ftp": "0",
+                "heroku-sys/ext-gd": "0",
+                "heroku-sys/ext-gettext": "0",
+                "heroku-sys/ext-gmp": "0",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "0",
+                "heroku-sys/ext-imap": "0",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.2.1",
+                "heroku-sys/ext-ldap": "0",
+                "heroku-sys/ext-libxml": "0",
+                "heroku-sys/ext-mbstring": "0",
+                "heroku-sys/ext-mcrypt": "0",
+                "heroku-sys/ext-mysql": "1.0",
+                "heroku-sys/ext-mysqli": "0.1",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "0",
+                "heroku-sys/ext-pcntl": "0",
+                "heroku-sys/ext-pcre": "0",
+                "heroku-sys/ext-pdo_mysql": "1.0.2",
+                "heroku-sys/ext-pdo_pgsql": "1.0.2",
+                "heroku-sys/ext-pdo_sqlite": "1.0.1",
+                "heroku-sys/ext-pgsql": "0",
+                "heroku-sys/ext-posix": "0",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "0",
+                "heroku-sys/ext-shmop": "0",
+                "heroku-sys/ext-soap": "0",
+                "heroku-sys/ext-sockets": "0",
+                "heroku-sys/ext-sqlite3": "0.7-dev",
+                "heroku-sys/ext-tokenizer": "0.1",
+                "heroku-sys/ext-xml": "0",
+                "heroku-sys/ext-xmlreader": "0.1",
+                "heroku-sys/ext-xmlrpc": "0.51",
+                "heroku-sys/ext-xmlwriter": "0.1",
+                "heroku-sys/ext-xsl": "0.1",
+                "heroku-sys/ext-zip": "1.12.5",
+                "heroku-sys/ext-zlib": "2.0",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-10-27 18:36:00",
+            "type": "heroku-sys-php",
+            "version": "5.6.32"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-5.6.33.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mysql": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "1.0.4dev",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "0",
+                "heroku-sys/ext-SPL": "0.2",
+                "heroku-sys/ext-SimpleXML": "0.1",
+                "heroku-sys/ext-Zend-OPcache": "7.0.6",
+                "heroku-sys/ext-bcmath": "0",
+                "heroku-sys/ext-bz2": "0",
+                "heroku-sys/ext-calendar": "0",
+                "heroku-sys/ext-ctype": "0",
+                "heroku-sys/ext-curl": "0",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-ereg": "0",
+                "heroku-sys/ext-exif": "0",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "0.11.0",
+                "heroku-sys/ext-ftp": "0",
+                "heroku-sys/ext-gd": "0",
+                "heroku-sys/ext-gettext": "0",
+                "heroku-sys/ext-gmp": "0",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "0",
+                "heroku-sys/ext-imap": "0",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.2.1",
+                "heroku-sys/ext-ldap": "0",
+                "heroku-sys/ext-libxml": "0",
+                "heroku-sys/ext-mbstring": "0",
+                "heroku-sys/ext-mcrypt": "0",
+                "heroku-sys/ext-mysql": "1.0",
+                "heroku-sys/ext-mysqli": "0.1",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "0",
+                "heroku-sys/ext-pcntl": "0",
+                "heroku-sys/ext-pcre": "0",
+                "heroku-sys/ext-pdo_mysql": "1.0.2",
+                "heroku-sys/ext-pdo_pgsql": "1.0.2",
+                "heroku-sys/ext-pdo_sqlite": "1.0.1",
+                "heroku-sys/ext-pgsql": "0",
+                "heroku-sys/ext-posix": "0",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "0",
+                "heroku-sys/ext-shmop": "0",
+                "heroku-sys/ext-soap": "0",
+                "heroku-sys/ext-sockets": "0",
+                "heroku-sys/ext-sqlite3": "0.7-dev",
+                "heroku-sys/ext-tokenizer": "0.1",
+                "heroku-sys/ext-xml": "0",
+                "heroku-sys/ext-xmlreader": "0.1",
+                "heroku-sys/ext-xmlrpc": "0.51",
+                "heroku-sys/ext-xmlwriter": "0.1",
+                "heroku-sys/ext-xsl": "0.1",
+                "heroku-sys/ext-zip": "1.12.5",
+                "heroku-sys/ext-zlib": "2.0",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 14:55:09",
+            "type": "heroku-sys-php",
+            "version": "5.6.33"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-5.6.34.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mysql": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "1.0.4dev",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "0",
+                "heroku-sys/ext-SPL": "0.2",
+                "heroku-sys/ext-SimpleXML": "0.1",
+                "heroku-sys/ext-Zend-OPcache": "7.0.6",
+                "heroku-sys/ext-bcmath": "0",
+                "heroku-sys/ext-bz2": "0",
+                "heroku-sys/ext-calendar": "0",
+                "heroku-sys/ext-ctype": "0",
+                "heroku-sys/ext-curl": "0",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-ereg": "0",
+                "heroku-sys/ext-exif": "0",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "0.11.0",
+                "heroku-sys/ext-ftp": "0",
+                "heroku-sys/ext-gd": "0",
+                "heroku-sys/ext-gettext": "0",
+                "heroku-sys/ext-gmp": "0",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "0",
+                "heroku-sys/ext-imap": "0",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.2.1",
+                "heroku-sys/ext-ldap": "0",
+                "heroku-sys/ext-libxml": "0",
+                "heroku-sys/ext-mbstring": "0",
+                "heroku-sys/ext-mcrypt": "0",
+                "heroku-sys/ext-mysql": "1.0",
+                "heroku-sys/ext-mysqli": "0.1",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "0",
+                "heroku-sys/ext-pcntl": "0",
+                "heroku-sys/ext-pcre": "0",
+                "heroku-sys/ext-pdo_mysql": "1.0.2",
+                "heroku-sys/ext-pdo_pgsql": "1.0.2",
+                "heroku-sys/ext-pdo_sqlite": "1.0.1",
+                "heroku-sys/ext-pgsql": "0",
+                "heroku-sys/ext-posix": "0",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "0",
+                "heroku-sys/ext-shmop": "0",
+                "heroku-sys/ext-soap": "0",
+                "heroku-sys/ext-sockets": "0",
+                "heroku-sys/ext-sqlite3": "0.7-dev",
+                "heroku-sys/ext-tokenizer": "0.1",
+                "heroku-sys/ext-xml": "0",
+                "heroku-sys/ext-xmlreader": "0.1",
+                "heroku-sys/ext-xmlrpc": "0.51",
+                "heroku-sys/ext-xmlwriter": "0.1",
+                "heroku-sys/ext-xsl": "0.1",
+                "heroku-sys/ext-zip": "1.12.5",
+                "heroku-sys/ext-zlib": "2.0",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:18:18",
+            "type": "heroku-sys-php",
+            "version": "5.6.34"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-5.6.35.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mysql": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "1.0.4dev",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "0",
+                "heroku-sys/ext-SPL": "0.2",
+                "heroku-sys/ext-SimpleXML": "0.1",
+                "heroku-sys/ext-Zend-OPcache": "7.0.6",
+                "heroku-sys/ext-bcmath": "0",
+                "heroku-sys/ext-bz2": "0",
+                "heroku-sys/ext-calendar": "0",
+                "heroku-sys/ext-ctype": "0",
+                "heroku-sys/ext-curl": "0",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-ereg": "0",
+                "heroku-sys/ext-exif": "0",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "0.11.0",
+                "heroku-sys/ext-ftp": "0",
+                "heroku-sys/ext-gd": "0",
+                "heroku-sys/ext-gettext": "0",
+                "heroku-sys/ext-gmp": "0",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "0",
+                "heroku-sys/ext-imap": "0",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.2.1",
+                "heroku-sys/ext-ldap": "0",
+                "heroku-sys/ext-libxml": "0",
+                "heroku-sys/ext-mbstring": "0",
+                "heroku-sys/ext-mcrypt": "0",
+                "heroku-sys/ext-mysql": "1.0",
+                "heroku-sys/ext-mysqli": "0.1",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "0",
+                "heroku-sys/ext-pcntl": "0",
+                "heroku-sys/ext-pcre": "0",
+                "heroku-sys/ext-pdo_mysql": "1.0.2",
+                "heroku-sys/ext-pdo_pgsql": "1.0.2",
+                "heroku-sys/ext-pdo_sqlite": "1.0.1",
+                "heroku-sys/ext-pgsql": "0",
+                "heroku-sys/ext-posix": "0",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "0",
+                "heroku-sys/ext-shmop": "0",
+                "heroku-sys/ext-soap": "0",
+                "heroku-sys/ext-sockets": "0",
+                "heroku-sys/ext-sqlite3": "0.7-dev",
+                "heroku-sys/ext-tokenizer": "0.1",
+                "heroku-sys/ext-xml": "0",
+                "heroku-sys/ext-xmlreader": "0.1",
+                "heroku-sys/ext-xmlrpc": "0.51",
+                "heroku-sys/ext-xmlwriter": "0.1",
+                "heroku-sys/ext-xsl": "0.1",
+                "heroku-sys/ext-zip": "1.12.5",
+                "heroku-sys/ext-zlib": "2.0",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:18:34",
+            "type": "heroku-sys-php",
+            "version": "5.6.35"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.0.26.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.4.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 06:36:01",
+            "type": "heroku-sys-php",
+            "version": "7.0.26"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.0.27.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.4.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:03:29",
+            "type": "heroku-sys-php",
+            "version": "7.0.27"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.0.28.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.4.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:31:38",
+            "type": "heroku-sys-php",
+            "version": "7.0.28"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.0.29.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.4.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-29 23:52:56",
+            "type": "heroku-sys-php",
+            "version": "7.0.29"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.1.12.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.5.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-22 15:48:53",
+            "type": "heroku-sys-php",
+            "version": "7.1.12"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.1.13.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.5.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 15:16:29",
+            "type": "heroku-sys-php",
+            "version": "7.1.13"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.1.14.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.5.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:17:32",
+            "type": "heroku-sys-php",
+            "version": "7.1.14"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.1.15.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.5.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:40:07",
+            "type": "heroku-sys-php",
+            "version": "7.1.15"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.1.16.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-mcrypt": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.5.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mcrypt": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.13.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:27:38",
+            "type": "heroku-sys-php",
+            "version": "7.1.16"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.2.0.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.6.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.15.1",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2017-11-28 19:57:20",
+            "type": "heroku-sys-php",
+            "version": "7.2.0"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.2.1.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.6.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.15.1",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-01-04 18:30:36",
+            "type": "heroku-sys-php",
+            "version": "7.2.1"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.2.2.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sodium": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.6.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sodium": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.15.2",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-02-05 02:25:27",
+            "type": "heroku-sys-php",
+            "version": "7.2.2"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.2.3.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sodium": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.6.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sodium": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.15.2",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-02 14:49:42",
+            "type": "heroku-sys-php",
+            "version": "7.2.3"
+        }, {
+            "conflict": {
+                "heroku-sys/hhvm": "*"
+            },
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "http://0.0.0.0:8008/php-7.2.4.tar.gz"
+            },
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": true,
+                    "heroku-sys/ext-calendar": true,
+                    "heroku-sys/ext-exif": true,
+                    "heroku-sys/ext-ftp": true,
+                    "heroku-sys/ext-gd": true,
+                    "heroku-sys/ext-gettext": true,
+                    "heroku-sys/ext-gmp": true,
+                    "heroku-sys/ext-imap": true,
+                    "heroku-sys/ext-intl": true,
+                    "heroku-sys/ext-ldap": true,
+                    "heroku-sys/ext-mbstring": true,
+                    "heroku-sys/ext-pcntl": true,
+                    "heroku-sys/ext-pdo_sqlite": true,
+                    "heroku-sys/ext-shmop": true,
+                    "heroku-sys/ext-soap": true,
+                    "heroku-sys/ext-sodium": true,
+                    "heroku-sys/ext-sqlite3": true,
+                    "heroku-sys/ext-xmlrpc": true,
+                    "heroku-sys/ext-xsl": true
+                }
+            },
+            "name": "heroku-sys/php",
+            "provide": {},
+            "replace": {
+                "heroku-sys/ext-PDO": "self.version",
+                "heroku-sys/ext-Phar": "2.0.2",
+                "heroku-sys/ext-Reflection": "self.version",
+                "heroku-sys/ext-SPL": "self.version",
+                "heroku-sys/ext-SimpleXML": "self.version",
+                "heroku-sys/ext-Zend-OPcache": "self.version",
+                "heroku-sys/ext-bcmath": "self.version",
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-calendar": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-exif": "self.version",
+                "heroku-sys/ext-fileinfo": "1.0.5",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-ftp": "self.version",
+                "heroku-sys/ext-gd": "self.version",
+                "heroku-sys/ext-gettext": "self.version",
+                "heroku-sys/ext-gmp": "self.version",
+                "heroku-sys/ext-hash": "1.0",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-imap": "self.version",
+                "heroku-sys/ext-intl": "1.1.0",
+                "heroku-sys/ext-json": "1.6.0",
+                "heroku-sys/ext-ldap": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-mbstring": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-pcntl": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_sqlite": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-shmop": "self.version",
+                "heroku-sys/ext-soap": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sodium": "self.version",
+                "heroku-sys/ext-sqlite3": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlrpc": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xsl": "self.version",
+                "heroku-sys/ext-zip": "1.15.2",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/php-64bit": "self.version"
+            },
+            "require": {
+                "heroku-sys/heroku": "^16.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2018-03-30 00:37:11",
+            "type": "heroku-sys-php",
+            "version": "7.2.4"
+        }]
+    ]
+}
