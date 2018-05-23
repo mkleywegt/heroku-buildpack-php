@@ -3,3 +3,5 @@ composer.lock
 vendor
 .github
 .vscode
+lib/cache/*
+!lib/cache/.keep
